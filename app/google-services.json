@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286652202020",
+    "project_id": "city-hop",
+    "storage_bucket": "city-hop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286652202020:android:81b6f46e46050fc8baecb1",
+        "android_client_info": {
+          "package_name": "com.example.cityhop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9w4Ph7NSOKmP7FT3B7YqKJaoG7j2nkuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

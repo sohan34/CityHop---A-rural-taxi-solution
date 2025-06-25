@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="268dp"
+        android:layout_height="264dp"
+        android:layout_alignBottom="@+id/titlr_driver"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="37dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/screenshot_2024_01_22_224323" />
+
+    <TextView
+        android:id="@+id/titlr_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/driver_email"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:text="Driver Login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/driver_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/driver_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_email"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#F6F5F5"
+        android:textColorHint="#FDFCFC" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_driver_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/driver_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="#FFEB3B"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/create_driver_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login_driver_btn"
+        android:layout_marginTop="5dp"
+        android:text="Don't have an account?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/register_driver_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/create_driver_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Register"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+</RelativeLayout>
